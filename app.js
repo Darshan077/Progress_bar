@@ -64,7 +64,7 @@ function previousbtn() {
       sections[i].style.display = "none";
     }
     document.getElementById(id).style.display = "block";
-    alert(counter);
+    //alert(counter);
     counter <= 1
       ? (document.getElementById("prev").disabled = true)
       : (document.getElementById("prev").disabled = false);
